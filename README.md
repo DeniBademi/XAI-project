@@ -8,10 +8,10 @@ The project uses a combination of LSTM network and attention mechanisms to predi
 
 ## Features
 
-- Stock price prediction using LSTM with attention mechanism
+- Stock price prediction using LSTM and with attention mechanism
 - Data preprocessing and feature engineering
 - Model training with early stopping and checkpointing
-- Explainability analysis using LIME
+- Explainability analysis using Integrated Gradients and LIME
 - Visualization of predictions and explanations
 
 ## Project Structure
@@ -48,16 +48,8 @@ The project requires the following Python packages:
    ```bash
    pip install -r requirements.txt
    ```
+4. Unzip the dataset zip file in data directory
 
 ## Usage
 
-1. Open `main.ipynb` in Jupyter Notebook
-2. Run the cells in sequence to:
-   - Load and preprocess the data
-   - Train the model
-   - Generate predictions
-   - Analyze model explanations using Integrated Gradients and LIME
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+Open and run `main.ipynb` in Jupyter Notebook or IDE of your choice
